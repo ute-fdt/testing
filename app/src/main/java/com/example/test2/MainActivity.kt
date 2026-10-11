@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateCounterText() {
+        // update for testing commit
         binding.tvCounter.text = count.toString()
     }
 }
